@@ -1,1 +1,0 @@
-# solikompperkasa.com web
