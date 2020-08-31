@@ -1,0 +1,2 @@
+# NOTE
+**Please DO NOT DELETE THE CNAME FILE**
