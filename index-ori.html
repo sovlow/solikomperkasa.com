@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>PT. Solikom Perkasa</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="shortcut icon" href="images/soli.png">
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            height: 45px;
+            width: 45px;
+            right: 30px;
+            z-index: 99;
+            font-size: 13px;
+            font-weight: bold;
+            border: none;
+            outline: none;
+            background-color: #555;
+            color: white;
+            cursor: pointer;
+            padding: 0px;
+            border-radius: 50%;
+        }
+        
+        #myBtn:hover {
+            background-color: #d3d3d3;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span style="font-size: 30px;">&#8593;</span></button>
+
+    <!-- Header -->
+    <header id="header">
+        <!--<a href="index.html" class="logo"><strong>PT. Solikom Perkasa</strong></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>-->
+    </header>
+
+
+
+    <!-- Banner -->
+    <section id="banner">
+
+        <h1><img src="images/soli.png" style="width:160px; height:160px;"></h1>
+
+
+    </section>
+
+    <!-- One -->
+    <article id="one" class="post style1">
+        <div class="image">
+            <img src="images/soho3.jpg" alt="" data-position="75% center" />
+        </div>
+        <div class="content">
+            <div class="inner">
+                <header>
+                    <h2 style="color:black;"><strong>PT. SOLIKOM PERKASA</strong></h2>
+
+                </header>
+                <p style="text-align:justify;">By adopting an Open Innovation strategy and harnessing our relationships with institutes, academia and industrial partners, we leverage company-wide synergies in technology, research, and design to bring innovations to market faster and
+                    more effectively. We have a team of highly skilled and passionate professionals with the vision to change the world a better place for ourselves or children and all the future generations.</p>
+
+            </div>
+            <div class="postnav">
+
+                <a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Three -->
+    <article id="two" class="post invert style1 alt">
+        <div class="image">
+            <img src="images/soho2.jpg" alt="" data-position="10% center" />
+        </div>
+        <div class="content">
+            <div class="inner">
+                <header>
+                    <h2><strong>WHAT WE DO?</strong></h2>
+                </header>
+                <p style="text-align:justify;">PT. Solikom Perkasa owns professional factory, introducing advanced production equipment, specialized production line, talented R&D team and adopting worldwide leading technology, through international standard management and strict quality
+                    control to ensure the stable-performance and high-quality products. PT. Solikom Perkasa provides a wide range of products, including high quality street lights. </p>
+            </div>
+            <div class="postnav">
+                <a href="#three" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+            </div>
+        </div>
+    </article>
+    <article id="three" class="post style1">
+        <div class="image">
+            <img src="images/soho4.jpg" alt="" data-position="75% center" />
+        </div>
+        <div class="content">
+            <div class="inner">
+                <header>
+                    <h2 style="color:black;"><strong>CONTACT US</strong></h2>
+
+
+                </header>
+                <p style="text-align:justify;"><i class="fas fa-map-marker-alt"> </i> SOHO CAPITAL Podomoro City, 19th Floor <br> Jl. Letjen S. Parman Kav. 28, Tanjung Duren Selatan<br> Grogol, Petamburan, Jakarta Barat 11470</p>
+                <p style="text-align:justify;"><a href="tel:+622150515064"><i class="fas fa-phone"></i> +622150515064</a></p>
+                <p style="text-align:justify;"><a href="mailto:info@solikomperkasa.com"><i class="fas fa-at"></i> info@solikomperkasa.com</a></p>
+
+            </div>
+            <div class="postnav">
+
+                <a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+            </div>
+        </div>
+    </article>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <div class="copyright">
+            <strong>&copy; PT. Solikom Perkasa</strong>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
